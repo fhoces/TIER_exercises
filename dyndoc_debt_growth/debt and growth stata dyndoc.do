@@ -1,5 +1,5 @@
 
-<<dd_include: header.txt >>
+<<dd_include: header.txt>>
 
 ## Coding Empricial Analysis from Beginning to End
 

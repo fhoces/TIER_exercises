@@ -61,7 +61,8 @@
 </code></pre>
 <h3><a href="#examining-data-i-is-debt-associated-with-low-growth" id="examining-data-i-is-debt-associated-with-low-growth">Examining data I: Is debt associated with low growth?</a></h3>
 <p>We will create a box plot of real GDP growth by debt category (similar to Herdon et al&rsquo;s Figure 3).</p>
-<pre><code>. graph box gdpgrowth , over(debt_cat) ytitle(&quot;Real GDP Growth (in %)&quot;) title(&quot;Contemporaneous relationship between debt and growth&quot;)
+<pre><code>. graph box gdpgrowth , over(debt_cat) ytitle(&quot;Real GDP Growth (in %)&quot;) title(&quot;Contemporaneous relationship between 
+&gt; debt and growth&quot;)
 
 </code></pre>
 <img src="debt.svg" height="500" >
@@ -114,7 +115,8 @@ file temp/data.dta saved
 
 </code></pre>
 <p>Now we are ready to analyze the data. Let&rsquo;s plot inital debt levels against subsequent growth.</p>
-<pre><code>. graph box gdpgrowth ,over(debt_cat) ytitle(&quot;Average real GDP growth over next four years&quot;) title(&quot;Initial debt level and subsequent growth&quot;)
+<pre><code>. graph box gdpgrowth ,over(debt_cat) ytitle(&quot;Average real GDP growth over next four years&quot;) title(&quot;Initial debt lev
+&gt; el and subsequent growth&quot;)
 
 </code></pre>
 <img src="debt5year.svg" height="500" >
